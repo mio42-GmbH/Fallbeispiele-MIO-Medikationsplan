@@ -1,0 +1,3198 @@
+{
+  "resourceType": "Bundle",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/Bundle"
+    ]
+  },
+  "type": "document",
+  "timestamp": "2024-11-18T15:03:50+01:00",
+  "id": "224f97f0-c2a7-4c57-ad58-f6b6df38dd3c",
+  "identifier": {
+    "system": "urn:ietf:rfc:3986",
+    "value": "urn:uuid:224f97f0-c2a7-4c57-ad58-f6b6df38dd3c"
+  },
+  "entry": [
+    {
+      "fullUrl": "https://gematik.de/fhir/epa-medication/Composition/f2b75149-c812-42bd-8907-1e59da46d20f",
+      "resource": {
+        "resourceType": "Composition",
+        "id": "f2b75149-c812-42bd-8907-1e59da46d20f",
+        "meta": {
+          "versionId": "2",
+          "lastUpdated": "2023-05-17T12:30:00+01:00",
+          "profile": [
+            "https://gematik.de/fhir/epa-medication/StructureDefinition/epa-plan-composition"
+          ]
+        },
+        "status": "final",
+        "title": "Medikationsplan",
+        "section": [
+          {
+            "title": "Allergien/Unverträglichkeiten-Liste-Einträge",
+            "code": {
+              "coding": [
+                {
+                  "system": "https://gematik.de/fhir/terminology/CodeSystem/epa-plan-composition-section-codes-cs",
+                  "code": "SectionAMTSRZIAllergienUnvertraeglichkeiten",
+                  "display": "Bereich AMTS-relevante Zusatzinformationen - Allergien/Unverträglichkeiten",
+                  "version": "1.0.0"
+                }
+              ]
+            },
+            "entry": [
+              {
+                "reference": "https://gematik.de/fhir/epa-medication/List/cf93090a-b5e5-44a2-8251-3dfdbe0fe99a/_history/1"
+              }
+            ]
+          },
+          {
+            "title": "Beobachtungen/Messungen-Liste-Einträge",
+            "code": {
+              "coding": [
+                {
+                  "system": "https://gematik.de/fhir/terminology/CodeSystem/epa-plan-composition-section-codes-cs",
+                  "code": "SectionAMTSRZIBeobachtungenMessungen",
+                  "display": "Bereich AMTS-relevante Zusatzinformationen - Beobachtungen/Messungen",
+                  "version": "1.0.0"
+                }
+              ]
+            },
+            "entry": [
+              {
+                "reference": "https://gematik.de/fhir/epa-medication/List/697fc4a9-df98-4e29-921e-b6d2c9f56456/_history/2"
+              }
+            ]
+          },
+          {
+            "title": "Medikations-Informationen-Liste-Einträge",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "version": "http://snomed.info/sct/11000274103/version/20240515",
+                  "code": "721912009",
+                  "display": "Medication summary document (record artifact)"
+                }
+              ]
+            },
+            "entry": [
+              {
+                "reference": "https://gematik.de/fhir/epa-medication/List/1ea33b03-9fcc-4520-aa70-655abba89761/_history/2"
+              }
+            ]
+          },
+          {
+            "title": "Herkunftsinformations-Einträge",
+            "code": {
+              "coding": [
+                {
+                  "system": "https://gematik.de/fhir/terminology/CodeSystem/epa-plan-composition-section-codes-cs",
+                  "code": "SectionHerkunftsinformationEintraege",
+                  "display": "Bereich Herkunftsinformation-Einträge",
+                  "version": "1.0.0"
+                }
+              ]
+            },
+            "entry": [
+              {
+                "reference": "https://gematik.de/fhir/epa-medication/Provenance/0e6a5411-3b0f-4299-be2b-f501641572df"
+              },
+              {
+                "reference": "https://gematik.de/fhir/epa-medication/Provenance/623b83b4-d0ae-42d0-bffb-d768a1fe5281"
+              },
+              {
+                "reference": "https://gematik.de/fhir/epa-medication/Provenance/e03ad115-f248-412c-a8ad-de9b2c7a147f"
+              },
+              {
+                "reference": "https://gematik.de/fhir/epa-medication/Provenance/366098c0-11e7-42a2-b669-dc90b37af00d"
+              },
+              {
+                "reference": "https://gematik.de/fhir/epa-medication/Provenance/06550d34-798d-44e0-afad-79a41084a4a6"
+              },
+              {
+                "reference": "https://gematik.de/fhir/epa-medication/Provenance/07652dcd-f173-4374-9f3f-4f8462b269e3"
+              },
+              {
+                "reference": "https://gematik.de/fhir/epa-medication/Provenance/770308cf-3bde-43d4-a550-b90f3b6c619d"
+              },
+              {
+                "reference": "https://gematik.de/fhir/epa-medication/Provenance/ac4adf5d-9513-412a-bd1a-e88392915da6"
+              },
+              {
+                "reference": "https://gematik.de/fhir/epa-medication/Provenance/4cb9f069-258d-41eb-90ad-1db196723d8b"
+              },
+              {
+                "reference": "https://gematik.de/fhir/epa-medication/Provenance/b9965772-1fa5-4c1b-bbe8-8bdb07dfe892"
+              },
+              {
+                "reference": "https://gematik.de/fhir/epa-medication/Provenance/325def38-bd7c-4cb2-ae4c-fa31d45b2d84"
+              },
+              {
+                "reference": "https://gematik.de/fhir/epa-medication/Provenance/e0d54c45-b55c-405f-82c2-c80a2c4b6adc"
+              },
+              {
+                "reference": "https://gematik.de/fhir/epa-medication/Provenance/547552fe-d1b3-4872-b396-f762a02c4038"
+              },
+              {
+                "reference": "https://gematik.de/fhir/epa-medication/Provenance/5f0be1c6-8b50-4d03-967e-0f1bec0caedf"
+              },
+              {
+                "reference": "https://gematik.de/fhir/epa-medication/Provenance/e7a82909-39a3-468e-a2c6-f8512e0adcd7"
+              },
+              {
+                "reference": "https://gematik.de/fhir/epa-medication/Provenance/d7245761-223f-48ad-8e62-f9bb72ef8a67"
+              },
+              {
+                "reference": "https://gematik.de/fhir/epa-medication/Provenance/a6c20ff7-337c-4ccc-92be-fdaeed4eeb13"
+              },
+              {
+                "reference": "https://gematik.de/fhir/epa-medication/Provenance/16d27b92-956d-4e8c-963b-f056ffff2e47"
+              },
+              {
+                "reference": "https://gematik.de/fhir/epa-medication/Provenance/5b64662c-5da1-41e9-bd77-b483a83fb494"
+              },
+              {
+                "reference": "https://gematik.de/fhir/epa-medication/Provenance/3c3ad64f-c943-401f-a9dd-eac2c7d4e741"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "identifier": {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://fhir.de/CodeSystem/identifier-type-de-basis",
+                  "code": "KVZ10",
+                  "display": "Krankenversichertennummer"
+                }
+              ]
+            },
+            "system": "http://fhir.de/sid/gkv/kvid-10",
+            "value": "A123456789"
+          }
+        },
+        "type": {
+          "coding": [
+            {
+              "code": "736378000",
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/11000274103/version/20240515",
+              "display": "Medication management plan (record artifact)"
+            }
+          ]
+        },
+        "date": "2023-05-17T12:30:00+01:00",
+        "author": [
+          {
+            "reference": "https://gematik.de/fhir/epa-medication/PractitionerRole/0f571555-f367-4158-ba89-2e2cc9afb564"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://gematik.de/fhir/epa-medication/PractitionerRole/0f571555-f367-4158-ba89-2e2cc9afb564",
+      "resource": {
+        "resourceType": "PractitionerRole",
+        "id": "0f571555-f367-4158-ba89-2e2cc9afb564",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2022-02-03T11:15:00+01:00",
+          "profile": [
+            "https://gematik.de/fhir/epa-medication/StructureDefinition/epa-practitioner-role-source"
+          ]
+        },
+        "practitioner": {
+          "reference": "https://gematik.de/fhir/epa-medication/Practitioner/6eb210e7-8ed6-4355-8501-666a6c832f59"
+        },
+        "organization": {
+          "reference": "https://gematik.de/fhir/epa-medication/Organization/5693d2e3-1178-4efd-abba-8f95f5638c7a"
+        },
+        "code": [
+          {
+            "coding": [
+              {
+                "code": "SA",
+                "system": "https://gematik.de/fhir/terminology/CodeSystem/epa-role-care-cs",
+                "version": "1.0.1",
+                "display": "Stationsärztin/-arzt"
+              }
+            ]
+          }
+        ],
+        "specialty": [
+          {
+            "coding": [
+              {
+                "code": "06",
+                "system": "https://fhir.kbv.de/CodeSystem/KBV_CS_SFHIR_BAR2_ARZTNRFACHGRUPPE",
+                "version": "1.01",
+                "display": "Chirurgie"
+              }
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+49(0)30377480008"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://gematik.de/fhir/epa-medication/Organization/5693d2e3-1178-4efd-abba-8f95f5638c7a",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "5693d2e3-1178-4efd-abba-8f95f5638c7a",
+        "meta": {
+          "tag": [
+            {
+              "system": "https://gematik.de/fhir/directory/CodeSystem/Origin"
+            }
+          ],
+          "versionId": "1",
+          "lastUpdated": "2022-01-01T01:01:01.000+01:00",
+          "profile": [
+            "https://gematik.de/fhir/directory/StructureDefinition/OrganizationDirectory"
+          ]
+        },
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "PRN",
+                  "version": "2.9.0",
+                  "display": "Provider number"
+                }
+              ]
+            },
+            "system": "https://gematik.de/fhir/sid/telematik-id",
+            "value": "T67676767676767"
+          }
+        ],
+        "type": [
+          {
+            "coding": [
+              {
+                "code": "1.2.276.0.76.4.53",
+                "system": "https://gematik.de/fhir/directory/CodeSystem/OrganizationProfessionOID",
+                "version": "0.11.8",
+                "display": "Krankenhaus"
+              }
+            ]
+          }
+        ],
+        "name": "Sankt Antonius Krankenhaus",
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+49(0)30377489999"
+          },
+          {
+            "system": "email",
+            "value": "info@sanktantonius-krankenhaus.de"
+          }
+        ],
+        "address": [
+          {
+            "type": "both",
+            "line": [
+              "Garnisonsstraße 122"
+            ],
+            "city": "Musterstadt",
+            "country": "D"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://gematik.de/fhir/epa-medication/Practitioner/6eb210e7-8ed6-4355-8501-666a6c832f59",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "6eb210e7-8ed6-4355-8501-666a6c832f59",
+        "meta": {
+          "tag": [
+            {
+              "system": "https://gematik.de/fhir/directory/CodeSystem/Origin"
+            }
+          ],
+          "versionId": "1",
+          "lastUpdated": "2022-02-03T11:15:00+01:00",
+          "profile": [
+            "https://gematik.de/fhir/directory/StructureDefinition/PractitionerDirectory"
+          ]
+        },
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "PRN",
+                  "version": "2.9.0",
+                  "display": "Provider number"
+                }
+              ]
+            },
+            "system": "https://gematik.de/fhir/sid/telematik-id",
+            "value": "T123424411111"
+          }
+        ],
+        "name": [
+          {
+            "text": "Dr. med. Malik Khan",
+            "family": "Khan",
+            "given": [
+              "Malik"
+            ],
+            "prefix": [
+              "Dr. med."
+            ]
+          }
+        ],
+        "qualification": [
+          {
+            "code": {
+              "coding": [
+                {
+                  "code": "071101",
+                  "system": "urn:oid:1.2.276.0.76.5.514",
+                  "display": "FA Allgemeine Chirurgie"
+                }
+              ],
+              "text": "Facharzt für Allgemeinchirurgie"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://gematik.de/fhir/epa-medication/List/cf93090a-b5e5-44a2-8251-3dfdbe0fe99a",
+      "resource": {
+        "resourceType": "List",
+        "id": "cf93090a-b5e5-44a2-8251-3dfdbe0fe99a",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2011-03-15T11:15:00+01:00",
+          "profile": [
+            "https://gematik.de/fhir/epa-medication/StructureDefinition/epa-plan-allergy-intolerance-list"
+          ]
+        },
+        "status": "current",
+        "mode": "snapshot",
+        "subject": {
+          "identifier": {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://fhir.de/CodeSystem/identifier-type-de-basis",
+                  "code": "KVZ10",
+                  "display": "Krankenversichertennummer"
+                }
+              ]
+            },
+            "system": "http://fhir.de/sid/gkv/kvid-10",
+            "value": "A123456789"
+          }
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/list-example-use-codes",
+              "version": "4.0.1",
+              "code": "allergies",
+              "display": "Allergies"
+            }
+          ]
+        },
+        "date": "2011-03-15T11:15:00+01:00",
+        "entry": [
+          {
+            "item": {
+              "reference": "https://gematik.de/fhir/epa-medication/AllergyIntolerance/0aaf6b98-7235-48d5-9b10-39dccb60fdc3/_history/1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://gematik.de/fhir/epa-medication/AllergyIntolerance/0aaf6b98-7235-48d5-9b10-39dccb60fdc3",
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "0aaf6b98-7235-48d5-9b10-39dccb60fdc3",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2011-03-15T11:15:00+01:00",
+          "profile": [
+            "https://gematik.de/fhir/epa-medication/StructureDefinition/epa-allergy-intolerance-amts"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "372733002",
+              "version": "http://snomed.info/sct/11000274103/version/20240515",
+              "display": "Angiotensin-converting enzyme inhibitor"
+            }
+          ]
+        },
+        "patient": {
+          "identifier": {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://fhir.de/CodeSystem/identifier-type-de-basis",
+                  "code": "KVZ10",
+                  "display": "Krankenversichertennummer"
+                }
+              ]
+            },
+            "system": "http://fhir.de/sid/gkv/kvid-10",
+            "value": "A123456789"
+          }
+        },
+        "reaction": [
+          {
+            "manifestation": [
+              {
+                "coding": [
+                  {
+                    "system": "http://snomed.info/sct",
+                    "code": "11833005",
+                    "version": "http://snomed.info/sct/11000274103/version/20240515",
+                    "display": "Dry cough"
+                  }
+                ]
+              }
+            ],
+            "exposureRoute": {
+              "coding": [
+                {
+                  "system": "http://standardterms.edqm.eu",
+                  "code": "20053000",
+                  "display": "Oral use"
+                }
+              ]
+            },
+            "severity": "moderate",
+            "description": "Trockener Reizhusten unter oraler Therapie mit Ramipril",
+            "onset": "2011-03"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+              "version": "4.0.1",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "code": "confirmed",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+              "version": "4.0.1",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "type": "intolerance",
+        "category": [
+          "medication"
+        ],
+        "criticality": "low",
+        "onsetDateTime": "2011-03-15"
+      }
+    },
+    {
+      "fullUrl": "https://gematik.de/fhir/epa-medication/Patient/7398268c-0d22-4f8e-8a5e-24acea368330",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "7398268c-0d22-4f8e-8a5e-24acea368330",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2015-01-01T01:01:01.000+01:00",
+          "profile": [
+            "https://gematik.de/fhir/epa/StructureDefinition/epa-patient"
+          ]
+        },
+        "name": [
+          {
+            "use": "official",
+            "text": "Isolde Meinhardt",
+            "family": "Meinhardt",
+            "_family": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/humanname-own-name",
+                  "valueString": "Meinhardt"
+                }
+              ]
+            },
+            "given": [
+              "Isolde"
+            ]
+          }
+        ],
+        "identifier": [
+          {
+            "system": "http://fhir.de/sid/gkv/kvid-10",
+            "value": "A123456789"
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+49 151 1234 5678"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1948-11-11",
+        "address": [
+          {
+            "type": "both",
+            "line": [
+              "Burgring 7"
+            ],
+            "city": "Berlin",
+            "postalCode": "12101",
+            "country": "D"
+          }
+        ],
+        "maritalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+              "version": "3.0.0",
+              "code": "W",
+              "display": "Widowed"
+            }
+          ]
+        },
+        "communication": [
+          {
+            "language": {
+              "coding": [
+                {
+                  "system": "urn:ietf:bcp:47",
+                  "version": "2.0.1",
+                  "code": "de",
+                  "display": "German"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://gematik.de/fhir/epa-medication/List/697fc4a9-df98-4e29-921e-b6d2c9f56456",
+      "resource": {
+        "resourceType": "List",
+        "id": "697fc4a9-df98-4e29-921e-b6d2c9f56456",
+        "meta": {
+          "versionId": "2",
+          "lastUpdated": "2023-05-17T12:30:00+01:00",
+          "profile": [
+            "https://gematik.de/fhir/epa-medication/StructureDefinition/epa-plan-observation-list"
+          ]
+        },
+        "status": "current",
+        "mode": "snapshot",
+        "subject": {
+          "identifier": {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://fhir.de/CodeSystem/identifier-type-de-basis",
+                  "code": "KVZ10",
+                  "display": "Krankenversichertennummer"
+                }
+              ]
+            },
+            "system": "http://fhir.de/sid/gkv/kvid-10",
+            "value": "A123456789"
+          }
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "363787002",
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/11000274103/version/20240515",
+              "display": "Observable entity (observable entity)"
+            }
+          ]
+        },
+        "date": "2023-05-17T12:30:00+01:00",
+        "entry": [
+          {
+            "item": {
+              "reference": "https://gematik.de/fhir/epa-medication/Observation/7a73970e-cfaf-4072-84b3-57d6f45f8ac9"
+            }
+          },
+          {
+            "item": {
+              "reference": "https://gematik.de/fhir/epa-medication/Observation/8f488a80-88a2-45c6-aa74-dc703dbe1a85"
+            }
+          },
+          {
+            "item": {
+              "reference": "https://gematik.de/fhir/epa-medication/Observation/1c9ee5d3-03b2-4e5b-94d9-a0a62a545b02"
+            }
+          },
+          {
+            "item": {
+              "reference": "https://gematik.de/fhir/epa-medication/Observation/db6ffdcc-4328-426b-85cb-6b3ac06fc4b4"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://gematik.de/fhir/epa-medication/Observation/7a73970e-cfaf-4072-84b3-57d6f45f8ac9",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "7a73970e-cfaf-4072-84b3-57d6f45f8ac9",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-05-17T12:30:00+01:00",
+          "profile": [
+            "https://gematik.de/fhir/epa-medication/StructureDefinition/epa-observation-gfr-amts"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "50044-7",
+              "version": "2.77",
+              "display": "Glomerular filtration rate/1.73 sq M.predicted among females [Volume Rate/Area] in Serum, Plasma or Blood by Creatinine-based formula (MDRD)"
+            }
+          ]
+        },
+        "subject": {
+          "identifier": {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://fhir.de/CodeSystem/identifier-type-de-basis",
+                  "code": "KVZ10",
+                  "display": "Krankenversichertennummer"
+                }
+              ]
+            },
+            "system": "http://fhir.de/sid/gkv/kvid-10",
+            "value": "A123456789"
+          }
+        },
+        "status": "final",
+        "effectiveDateTime": "2023-05-15T12:30:00+01:00",
+        "performer": [
+          {
+            "reference": "https://gematik.de/fhir/epa-medication/PractitionerRole/0f571555-f367-4158-ba89-2e2cc9afb564"
+          }
+        ],
+        "valueQuantity": {
+          "value": 65,
+          "unit": "milliliter per minute per 1.73 square meter",
+          "system": "http://unitsofmeasure.org",
+          "code": "mL/min/{1.73_m2}"
+        }
+      }
+    },
+    {
+      "fullUrl": "https://gematik.de/fhir/epa-medication/Observation/8f488a80-88a2-45c6-aa74-dc703dbe1a85",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "8f488a80-88a2-45c6-aa74-dc703dbe1a85",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-05-03T11:15:00+01:00",
+          "profile": [
+            "https://gematik.de/fhir/epa-medication/StructureDefinition/epa-observation-body-height-amts"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8302-2",
+              "version": "2.77",
+              "display": "Body height"
+            },
+            {
+              "system": "http://snomed.info/sct",
+              "code": "1153637007",
+              "version": "http://snomed.info/sct/11000274103/version/20240515",
+              "display": "Body height (observable entity)"
+            }
+          ]
+        },
+        "subject": {
+          "identifier": {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://fhir.de/CodeSystem/identifier-type-de-basis",
+                  "code": "KVZ10",
+                  "display": "Krankenversichertennummer"
+                }
+              ]
+            },
+            "system": "http://fhir.de/sid/gkv/kvid-10",
+            "value": "A123456789"
+          }
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 163,
+          "code": "cm",
+          "unit": "centimeter"
+        },
+        "status": "final",
+        "effectiveDateTime": "2023-05-03T11:15:00+01:00",
+        "performer": [
+          {
+            "reference": "https://gematik.de/fhir/epa-medication/PractitionerRole/96944367-67d2-438d-b67c-3130850e6ad9"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://gematik.de/fhir/epa-medication/PractitionerRole/96944367-67d2-438d-b67c-3130850e6ad9",
+      "resource": {
+        "resourceType": "PractitionerRole",
+        "id": "96944367-67d2-438d-b67c-3130850e6ad9",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2022-02-03T11:15:00+01:00",
+          "profile": [
+            "https://gematik.de/fhir/epa-medication/StructureDefinition/epa-practitioner-role-source"
+          ]
+        },
+        "practitioner": {
+          "reference": "https://gematik.de/fhir/epa-medication/Practitioner/021207a5-8cb9-4fff-9f05-855e4dec7a34"
+        },
+        "organization": {
+          "reference": "https://gematik.de/fhir/epa-medication/Organization/2618613f-4ee1-42b2-9ebf-7eefca12e7ac"
+        },
+        "code": [
+          {
+            "coding": [
+              {
+                "code": "API",
+                "system": "https://gematik.de/fhir/terminology/CodeSystem/epa-role-care-cs",
+                "version": "1.0.1",
+                "display": "Ärztliche(r) PraxisinhaberIn"
+              }
+            ]
+          }
+        ],
+        "specialty": [
+          {
+            "coding": [
+              {
+                "code": "01",
+                "system": "https://fhir.kbv.de/CodeSystem/KBV_CS_SFHIR_BAR2_ARZTNRFACHGRUPPE",
+                "version": "1.01",
+                "display": "Allgemeinmedizin"
+              }
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+49(0)3073111893"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://gematik.de/fhir/epa-medication/Organization/2618613f-4ee1-42b2-9ebf-7eefca12e7ac",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "2618613f-4ee1-42b2-9ebf-7eefca12e7ac",
+        "meta": {
+          "tag": [
+            {
+              "system": "https://gematik.de/fhir/directory/CodeSystem/Origin"
+            }
+          ],
+          "versionId": "1",
+          "lastUpdated": "2022-01-01T01:01:01.000+01:00",
+          "profile": [
+            "https://gematik.de/fhir/directory/StructureDefinition/OrganizationDirectory"
+          ]
+        },
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "PRN",
+                  "version": "2.9.0",
+                  "display": "Provider number"
+                }
+              ]
+            },
+            "system": "https://gematik.de/fhir/sid/telematik-id",
+            "value": "T24242424242424"
+          }
+        ],
+        "type": [
+          {
+            "coding": [
+              {
+                "code": "1.2.276.0.76.4.50",
+                "system": "https://gematik.de/fhir/directory/CodeSystem/OrganizationProfessionOID",
+                "version": "0.11.8",
+                "display": "Betriebsstätte Arzt"
+              }
+            ]
+          }
+        ],
+        "name": "Hausarztpraxis Minna Kühn",
+        "telecom": [
+          {
+            "system": "email",
+            "value": "info@praxis-kuehn.de"
+          },
+          {
+            "system": "phone",
+            "value": "+49(0)3073111893"
+          }
+        ],
+        "address": [
+          {
+            "text": "Wladimir-Wiese-Straße 1, 10456 Berlin, Deutschland",
+            "line": [
+              "Wladimir-Wiese-Straße 1"
+            ],
+            "city": "Berlin",
+            "postalCode": "10456",
+            "country": "D"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://gematik.de/fhir/epa-medication/Practitioner/021207a5-8cb9-4fff-9f05-855e4dec7a34",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "021207a5-8cb9-4fff-9f05-855e4dec7a34",
+        "meta": {
+          "tag": [
+            {
+              "system": "https://gematik.de/fhir/directory/CodeSystem/Origin"
+            }
+          ],
+          "versionId": "1",
+          "lastUpdated": "2022-02-03T11:15:00+01:00",
+          "profile": [
+            "https://gematik.de/fhir/directory/StructureDefinition/PractitionerDirectory"
+          ]
+        },
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "PRN",
+                  "version": "2.9.0",
+                  "display": "Provider number"
+                }
+              ]
+            },
+            "system": "https://gematik.de/fhir/sid/telematik-id",
+            "value": "T1234244333333"
+          }
+        ],
+        "name": [
+          {
+            "text": "Dr. med. Minna Kühn",
+            "family": "Kühn",
+            "given": [
+              "Minna"
+            ],
+            "prefix": [
+              "Dr. med."
+            ]
+          }
+        ],
+        "qualification": [
+          {
+            "code": {
+              "coding": [
+                {
+                  "code": "011001",
+                  "system": "urn:oid:1.2.276.0.76.5.514",
+                  "display": "FA Allgemeinmedizin"
+                }
+              ],
+              "text": "Fachärztin für Allgemeinmedizin"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://gematik.de/fhir/epa-medication/Observation/1c9ee5d3-03b2-4e5b-94d9-a0a62a545b02",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "1c9ee5d3-03b2-4e5b-94d9-a0a62a545b02",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-05-17T12:30:00+01:00",
+          "profile": [
+            "https://gematik.de/fhir/epa-medication/StructureDefinition/epa-observation-body-weight-amts"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "29463-7",
+              "version": "2.77",
+              "display": "Body weight"
+            },
+            {
+              "system": "http://snomed.info/sct",
+              "code": "27113001",
+              "version": "http://snomed.info/sct/11000274103/version/20240515",
+              "display": "Body weight (observable entity)"
+            }
+          ]
+        },
+        "subject": {
+          "identifier": {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://fhir.de/CodeSystem/identifier-type-de-basis",
+                  "code": "KVZ10",
+                  "display": "Krankenversichertennummer"
+                }
+              ]
+            },
+            "system": "http://fhir.de/sid/gkv/kvid-10",
+            "value": "A123456789"
+          }
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 56.3,
+          "code": "kg",
+          "unit": "kilogram"
+        },
+        "status": "final",
+        "effectiveDateTime": "2023-05-17T12:30:00+01:00",
+        "performer": [
+          {
+            "reference": "https://gematik.de/fhir/epa-medication/PractitionerRole/0f571555-f367-4158-ba89-2e2cc9afb564"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://gematik.de/fhir/epa-medication/Observation/db6ffdcc-4328-426b-85cb-6b3ac06fc4b4",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "db6ffdcc-4328-426b-85cb-6b3ac06fc4b4",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-05-17T12:30:00+01:00",
+          "profile": [
+            "https://gematik.de/fhir/epa-medication/StructureDefinition/epa-observation-creatinine-amts"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "77140-2",
+              "version": "2.77",
+              "display": "Creatinine [Moles/volume] in Serum, Plasma or Blood"
+            }
+          ]
+        },
+        "subject": {
+          "identifier": {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://fhir.de/CodeSystem/identifier-type-de-basis",
+                  "code": "KVZ10",
+                  "display": "Krankenversichertennummer"
+                }
+              ]
+            },
+            "system": "http://fhir.de/sid/gkv/kvid-10",
+            "value": "A123456789"
+          }
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 75,
+          "unit": "micromole per liter",
+          "code": "umol/L"
+        },
+        "status": "final",
+        "effectiveDateTime": "2023-05-15T12:30:00+01:00",
+        "performer": [
+          {
+            "reference": "https://gematik.de/fhir/epa-medication/PractitionerRole/0f571555-f367-4158-ba89-2e2cc9afb564"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://gematik.de/fhir/epa-medication/List/1ea33b03-9fcc-4520-aa70-655abba89761",
+      "resource": {
+        "resourceType": "List",
+        "id": "1ea33b03-9fcc-4520-aa70-655abba89761",
+        "meta": {
+          "versionId": "2",
+          "lastUpdated": "2023-05-17T12:30:00+01:00",
+          "profile": [
+            "https://gematik.de/fhir/epa-medication/StructureDefinition/epa-plan-medication-statement-list"
+          ]
+        },
+        "status": "current",
+        "mode": "snapshot",
+        "subject": {
+          "identifier": {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://fhir.de/CodeSystem/identifier-type-de-basis",
+                  "code": "KVZ10",
+                  "display": "Krankenversichertennummer"
+                }
+              ]
+            },
+            "system": "http://fhir.de/sid/gkv/kvid-10",
+            "value": "A123456789"
+          }
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/list-example-use-codes",
+              "version": "4.0.1",
+              "code": "medications",
+              "display": "Medication List"
+            }
+          ]
+        },
+        "date": "2023-05-17T12:30:00+01:00",
+        "entry": [
+          {
+            "item": {
+              "reference": "https://gematik.de/fhir/epa-medication/MedicationStatement/4fd92a0f-c078-4757-a1bf-94496322c8f8/_history/1"
+            }
+          },
+          {
+            "item": {
+              "reference": "https://gematik.de/fhir/epa-medication/MedicationStatement/36e33962-228c-42cb-9528-461777e1a120/_history/2"
+            }
+          },
+          {
+            "item": {
+              "reference": "https://gematik.de/fhir/epa-medication/MedicationStatement/fcae8b9e-43ab-4418-8e6f-f511864393af/_history/2"
+            }
+          },
+          {
+            "item": {
+              "reference": "https://gematik.de/fhir/epa-medication/MedicationStatement/0823f0d0-6053-4f07-abe5-09744505ef21/_history/1"
+            }
+          },
+          {
+            "item": {
+              "reference": "https://gematik.de/fhir/epa-medication/MedicationStatement/54419f7a-ee92-4bc1-ae48-9def3a692b90/_history/1"
+            }
+          },
+          {
+            "item": {
+              "reference": "https://gematik.de/fhir/epa-medication/MedicationStatement/1f12e179-faa7-44fa-8db9-a825778bb627/_history/1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://gematik.de/fhir/epa-medication/MedicationStatement/4fd92a0f-c078-4757-a1bf-94496322c8f8",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "4fd92a0f-c078-4757-a1bf-94496322c8f8",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2019-03-11T11:15:00+01:00",
+          "profile": [
+            "https://gematik.de/fhir/epa-medication/StructureDefinition/epa-medication-statement-planning"
+          ]
+        },
+        "subject": {
+          "identifier": {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://fhir.de/CodeSystem/identifier-type-de-basis",
+                  "code": "KVZ10",
+                  "display": "Krankenversichertennummer"
+                }
+              ]
+            },
+            "system": "http://fhir.de/sid/gkv/kvid-10",
+            "value": "A123456789"
+          }
+        },
+        "status": "active",
+        "medicationReference": {
+          "reference": "https://gematik.de/fhir/epa-medication/Medication/55255a9f-e07d-4fd1-98b9-95aca5948331/_history/1"
+        },
+        "effectivePeriod": {
+          "start": "2019-03-11T11:15:00+01:00"
+        },
+        "dateAsserted": "2019-03-11T11:15:00+01:00",
+        "reasonCode": [
+          {
+            "text": "Herzfrequenzkontrolle bei Vorhofflimmern"
+          }
+        ],
+        "dosage": [
+          {
+            "patientInstruction": "Einnahme morgens mit ausreichend Wasser",
+            "timing": {
+              "repeat": {
+                "boundsPeriod": {
+                  "start": "2019-03-11T11:15:00+01:00"
+                },
+                "frequency": 1,
+                "period": 1,
+                "periodUnit": "d",
+                "when": [
+                  "MORN"
+                ]
+              }
+            },
+            "asNeededBoolean": false,
+            "route": {
+              "coding": [
+                {
+                  "code": "20053000",
+                  "system": "http://standardterms.edqm.eu",
+                  "display": "Oral use"
+                }
+              ]
+            },
+            "doseAndRate": [
+              {
+                "doseQuantity": {
+                  "value": 1,
+                  "code": "1",
+                  "system": "https://fhir.kbv.de/CodeSystem/KBV_CS_SFHIR_BMP_DOSIEREINHEIT",
+                  "unit": "Stück"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://gematik.de/fhir/epa-medication/Medication/55255a9f-e07d-4fd1-98b9-95aca5948331",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "55255a9f-e07d-4fd1-98b9-95aca5948331",
+        "meta": {
+          "lastUpdated": "2019-03-11T11:15:00+01:00",
+          "versionId": "1",
+          "profile": [
+            "https://gematik.de/fhir/epa-medication/StructureDefinition/epa-medication-planning"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://fhir.de/CodeSystem/ifa/pzn",
+              "code": "6866143",
+              "display": "Bisoprolol-ratiopharm 10 mg Tabletten"
+            }
+          ]
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "https://fhir.kbv.de/CodeSystem/KBV_CS_SFHIR_KBV_DARREICHUNGSFORM",
+              "code": "TAB",
+              "display": "Tabletten",
+              "version": "1.1.0"
+            }
+          ]
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://fhir.de/CodeSystem/ask",
+                  "code": "23549",
+                  "display": "Bisoprololfumarat"
+                }
+              ]
+            },
+            "strength": {
+              "numerator": {
+                "value": 10,
+                "code": "mg",
+                "system": "http://unitsofmeasure.org",
+                "unit": "milligram"
+              },
+              "denominator": {
+                "value": 1,
+                "code": "732936001",
+                "system": "http://snomed.info/sct",
+                "unit": "Tablet (unit of presentation)"
+              }
+            }
+          }
+        ],
+        "status": "active",
+        "amount": {
+          "numerator": {
+            "value": 100,
+            "code": "732936001",
+            "system": "http://snomed.info/sct",
+            "unit": "Tablet (unit of presentation)"
+          },
+          "denominator": {
+            "value": 1,
+            "code": "1681000175101",
+            "system": "http://snomed.info/sct",
+            "unit": "Package - unit of product usage (qualifier value)"
+          }
+        }
+      }
+    },
+    {
+      "fullUrl": "https://gematik.de/fhir/epa-medication/MedicationStatement/36e33962-228c-42cb-9528-461777e1a120",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "36e33962-228c-42cb-9528-461777e1a120",
+        "meta": {
+          "versionId": "2",
+          "lastUpdated": "2023-05-17T12:30:00+01:00",
+          "profile": [
+            "https://gematik.de/fhir/epa-medication/StructureDefinition/epa-medication-statement-planning"
+          ]
+        },
+        "subject": {
+          "identifier": {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://fhir.de/CodeSystem/identifier-type-de-basis",
+                  "code": "KVZ10",
+                  "display": "Krankenversichertennummer"
+                }
+              ]
+            },
+            "system": "http://fhir.de/sid/gkv/kvid-10",
+            "value": "A123456789"
+          }
+        },
+        "reasonCode": [
+          {
+            "coding": [
+              {
+                "system": "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+                "code": "I50.1",
+                "display": "Linksherzinsuffizienz",
+                "version": "2024"
+              }
+            ],
+            "text": "Herzschwäche"
+          },
+          {
+            "coding": [
+              {
+                "system": "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+                "code": "I10.00",
+                "display": "Benigne essentielle Hypertonie : Ohne Angabe einer hypertensiven Krise",
+                "version": "2024"
+              }
+            ],
+            "text": "Bluthochdruck"
+          }
+        ],
+        "status": "on-hold",
+        "medicationReference": {
+          "reference": "https://gematik.de/fhir/epa-medication/Medication/cc980c3b-8aea-4140-8dfe-66874a3d2a0b/_history/2"
+        },
+        "effectivePeriod": {
+          "start": "2019-03-11T11:15:00+01:00"
+        },
+        "dateAsserted": "2023-05-17T12:30:00+01:00",
+        "note": [
+          {
+            "authorReference": {
+              "reference": "https://gematik.de/fhir/epa-medication/Practitioner/021207a5-8cb9-4fff-9f05-855e4dec7a34"
+            },
+            "time": "2022-11-12T11:15:00+01:00",
+            "text": "pausiert wegen Hyperkaliämie"
+          },
+          {
+            "authorReference": {
+              "reference": "https://gematik.de/fhir/epa-medication/Practitioner/021207a5-8cb9-4fff-9f05-855e4dec7a34"
+            },
+            "time": "2022-12-20T11:15:00+01:00",
+            "text": "wieder angesetzt"
+          },
+          {
+            "authorReference": {
+              "reference": "https://gematik.de/fhir/epa-medication/Practitioner/6eb210e7-8ed6-4355-8501-666a6c832f59"
+            },
+            "time": "2023-05-17T12:30:00+01:00",
+            "text": "Wegen RR-Erniedrigung pausiert"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://gematik.de/fhir/epa-medication/Medication/cc980c3b-8aea-4140-8dfe-66874a3d2a0b",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "cc980c3b-8aea-4140-8dfe-66874a3d2a0b",
+        "meta": {
+          "lastUpdated": "2023-05-17T12:30:00+01:00",
+          "versionId": "2",
+          "profile": [
+            "https://gematik.de/fhir/epa-medication/StructureDefinition/epa-medication-planning"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://fhir.de/CodeSystem/ifa/pzn",
+              "code": "11851965",
+              "display": "Spironolacton Accord 25mg Filmtabletten"
+            }
+          ]
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "https://fhir.kbv.de/CodeSystem/KBV_CS_SFHIR_KBV_DARREICHUNGSFORM",
+              "code": "TAB",
+              "display": "Tabletten",
+              "version": "1.1.0"
+            }
+          ]
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://fhir.de/CodeSystem/ask",
+                  "code": "00461",
+                  "display": "Spironolacton"
+                }
+              ],
+              "text": "Spironolacton"
+            },
+            "strength": {
+              "numerator": {
+                "value": 25,
+                "code": "mg",
+                "system": "http://unitsofmeasure.org",
+                "unit": "milligram"
+              },
+              "denominator": {
+                "value": 1,
+                "code": "732936001",
+                "system": "http://snomed.info/sct",
+                "unit": "Tablet (unit of presentation)"
+              }
+            }
+          }
+        ],
+        "status": "inactive",
+        "amount": {
+          "numerator": {
+            "value": 100,
+            "code": "732936001",
+            "system": "http://snomed.info/sct",
+            "unit": "Tablet (unit of presentation)"
+          },
+          "denominator": {
+            "value": 1,
+            "code": "1681000175101",
+            "system": "http://snomed.info/sct",
+            "unit": "Package - unit of product usage (qualifier value)"
+          }
+        }
+      }
+    },
+    {
+      "fullUrl": "https://gematik.de/fhir/epa-medication/MedicationStatement/fcae8b9e-43ab-4418-8e6f-f511864393af",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "fcae8b9e-43ab-4418-8e6f-f511864393af",
+        "meta": {
+          "versionId": "2",
+          "lastUpdated": "2023-05-17T12:30:00+01:00",
+          "profile": [
+            "https://gematik.de/fhir/epa-medication/StructureDefinition/epa-medication-statement-planning"
+          ]
+        },
+        "subject": {
+          "identifier": {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://fhir.de/CodeSystem/identifier-type-de-basis",
+                  "code": "KVZ10",
+                  "display": "Krankenversichertennummer"
+                }
+              ]
+            },
+            "system": "http://fhir.de/sid/gkv/kvid-10",
+            "value": "A123456789"
+          }
+        },
+        "status": "on-hold",
+        "medicationReference": {
+          "reference": "https://gematik.de/fhir/epa-medication/Medication/62e11b74-abbb-4645-8b92-c1d251d5a9ea/_history/2"
+        },
+        "effectivePeriod": {
+          "start": "2019-03-11T11:15:00+01:00"
+        },
+        "dateAsserted": "2023-05-17T12:30:00+01:00",
+        "reasonCode": [
+          {
+            "text": "Blutverdünnung"
+          }
+        ],
+        "note": [
+          {
+            "authorReference": {
+              "reference": "https://gematik.de/fhir/epa-medication/Organization/3389e7f9-b347-4ec3-9cb2-3f2d2e483ff4"
+            },
+            "time": "2019-03-11T11:15:00+01:00",
+            "text": "Patientin wünscht keine NOAK-Therapie."
+          },
+          {
+            "authorReference": {
+              "reference": "https://gematik.de/fhir/epa-medication/Practitioner/021207a5-8cb9-4fff-9f05-855e4dec7a34"
+            },
+            "time": "2023-05-03T11:15:00+01:00",
+            "text": "INR-Wert vom 03.05.2023: 2,8"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://gematik.de/fhir/epa-medication/Medication/62e11b74-abbb-4645-8b92-c1d251d5a9ea",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "62e11b74-abbb-4645-8b92-c1d251d5a9ea",
+        "meta": {
+          "lastUpdated": "2023-05-17T12:30:00+01:00",
+          "versionId": "2",
+          "profile": [
+            "https://gematik.de/fhir/epa-medication/StructureDefinition/epa-medication-planning"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://fhir.de/CodeSystem/ifa/pzn",
+              "code": "5541338",
+              "display": "Marcumar® 3mg"
+            }
+          ]
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "https://fhir.kbv.de/CodeSystem/KBV_CS_SFHIR_KBV_DARREICHUNGSFORM",
+              "code": "TAB",
+              "display": "Tabletten",
+              "version": "1.1.0"
+            }
+          ]
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "59488002",
+                  "version": "http://snomed.info/sct/11000274103/version/20240515",
+                  "display": "Phenprocoumon (substance)"
+                }
+              ]
+            },
+            "strength": {
+              "numerator": {
+                "value": 3,
+                "code": "mg",
+                "system": "http://unitsofmeasure.org",
+                "unit": "milligram"
+              },
+              "denominator": {
+                "value": 1,
+                "code": "732936001",
+                "system": "http://snomed.info/sct",
+                "unit": "Tablet (unit of presentation)"
+              }
+            }
+          }
+        ],
+        "status": "inactive",
+        "amount": {
+          "numerator": {
+            "value": 98,
+            "code": "732936001",
+            "system": "http://snomed.info/sct",
+            "unit": "Tablet (unit of presentation)"
+          },
+          "denominator": {
+            "value": 1,
+            "code": "1681000175101",
+            "system": "http://snomed.info/sct",
+            "unit": "Package - unit of product usage (qualifier value)"
+          }
+        }
+      }
+    },
+    {
+      "fullUrl": "https://gematik.de/fhir/epa-medication/Organization/3389e7f9-b347-4ec3-9cb2-3f2d2e483ff4",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "3389e7f9-b347-4ec3-9cb2-3f2d2e483ff4",
+        "meta": {
+          "tag": [
+            {
+              "system": "https://gematik.de/fhir/directory/CodeSystem/Origin"
+            }
+          ],
+          "versionId": "1",
+          "lastUpdated": "2022-01-01T01:01:01.000+01:00",
+          "profile": [
+            "https://gematik.de/fhir/directory/StructureDefinition/OrganizationDirectory"
+          ]
+        },
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "PRN",
+                  "version": "2.9.0",
+                  "display": "Provider number"
+                }
+              ]
+            },
+            "system": "https://gematik.de/fhir/sid/telematik-id",
+            "value": "T12121212121212"
+          }
+        ],
+        "type": [
+          {
+            "coding": [
+              {
+                "code": "1.2.276.0.76.4.54",
+                "system": "https://gematik.de/fhir/directory/CodeSystem/OrganizationProfessionOID",
+                "version": "0.11.8",
+                "display": "Öffentliche Apotheke"
+              }
+            ]
+          }
+        ],
+        "name": "Athanasius Apotheke",
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "0301232222"
+          }
+        ],
+        "address": [
+          {
+            "type": "both",
+            "line": [
+              "Athanasiusallee 35"
+            ],
+            "city": "Berlin",
+            "country": "D",
+            "postalCode": "90000"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://gematik.de/fhir/epa-medication/MedicationStatement/0823f0d0-6053-4f07-abe5-09744505ef21",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "0823f0d0-6053-4f07-abe5-09744505ef21",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-05-17T12:30:00+01:00",
+          "profile": [
+            "https://gematik.de/fhir/epa-medication/StructureDefinition/epa-medication-statement-planning"
+          ]
+        },
+        "subject": {
+          "identifier": {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://fhir.de/CodeSystem/identifier-type-de-basis",
+                  "code": "KVZ10",
+                  "display": "Krankenversichertennummer"
+                }
+              ]
+            },
+            "system": "http://fhir.de/sid/gkv/kvid-10",
+            "value": "A123456789"
+          }
+        },
+        "status": "active",
+        "medicationReference": {
+          "reference": "https://gematik.de/fhir/epa-medication/Medication/81fa28bc-83e2-4da3-9169-5639c51a7fed/_history/1"
+        },
+        "effectivePeriod": {
+          "start": "2023-05-11T12:30:00+01:00"
+        },
+        "dateAsserted": "2023-05-17T12:30:00+01:00",
+        "reasonCode": [
+          {
+            "text": "Blutverdünnung"
+          },
+          {
+            "text": "Thromboseprophylaxe"
+          }
+        ],
+        "note": [
+          {
+            "authorReference": {
+              "reference": "https://gematik.de/fhir/epa-medication/Practitioner/6eb210e7-8ed6-4355-8501-666a6c832f59"
+            },
+            "time": "2023-05-17T12:30:00+01:00",
+            "text": "Umstellung auf oralen Antikoagulation am 22.05.2023 empfohlen."
+          }
+        ],
+        "dosage": [
+          {
+            "timing": {
+              "repeat": {
+                "boundsPeriod": {
+                  "start": "2023-05-11T12:30:00+01:00"
+                },
+                "frequency": 1,
+                "period": 1,
+                "periodUnit": "d",
+                "when": [
+                  "MORN"
+                ]
+              }
+            },
+            "asNeededBoolean": false,
+            "route": {
+              "coding": [
+                {
+                  "code": "20066000",
+                  "system": "http://standardterms.edqm.eu",
+                  "display": "Subcutaneous use"
+                }
+              ]
+            },
+            "doseAndRate": [
+              {
+                "doseQuantity": {
+                  "value": 1,
+                  "code": "1",
+                  "system": "https://fhir.kbv.de/CodeSystem/KBV_CS_SFHIR_BMP_DOSIEREINHEIT",
+                  "unit": "Stück"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://gematik.de/fhir/epa-medication/Medication/81fa28bc-83e2-4da3-9169-5639c51a7fed",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "81fa28bc-83e2-4da3-9169-5639c51a7fed",
+        "meta": {
+          "lastUpdated": "2023-05-17T12:30:00+01:00",
+          "versionId": "1",
+          "profile": [
+            "https://gematik.de/fhir/epa-medication/StructureDefinition/epa-medication-planning"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://fhir.de/CodeSystem/ifa/pzn",
+              "code": "5013355",
+              "display": "CLEXANE® 4000 I.E. 40 mg/0,4 ml"
+            }
+          ]
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "https://fhir.kbv.de/CodeSystem/KBV_CS_SFHIR_KBV_DARREICHUNGSFORM",
+              "code": "FER",
+              "display": "Fertigspritzen",
+              "version": "1.1.0"
+            }
+          ]
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "108983001",
+                  "version": "http://snomed.info/sct/11000274103/version/20240515",
+                  "display": "Enoxaparin sodium (substance)"
+                }
+              ]
+            },
+            "strength": {
+              "numerator": {
+                "value": 4000,
+                "code": "[IU]",
+                "system": "http://unitsofmeasure.org",
+                "unit": "international unit"
+              },
+              "denominator": {
+                "value": 0.4,
+                "code": "ml",
+                "system": "http://unitsofmeasure.org",
+                "unit": "milliliters"
+              }
+            }
+          }
+        ],
+        "status": "active"
+      }
+    },
+    {
+      "fullUrl": "https://gematik.de/fhir/epa-medication/MedicationStatement/54419f7a-ee92-4bc1-ae48-9def3a692b90",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "54419f7a-ee92-4bc1-ae48-9def3a692b90",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-05-17T12:30:00+01:00",
+          "profile": [
+            "https://gematik.de/fhir/epa-medication/StructureDefinition/epa-medication-statement-planning"
+          ]
+        },
+        "subject": {
+          "identifier": {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://fhir.de/CodeSystem/identifier-type-de-basis",
+                  "code": "KVZ10",
+                  "display": "Krankenversichertennummer"
+                }
+              ]
+            },
+            "system": "http://fhir.de/sid/gkv/kvid-10",
+            "value": "A123456789"
+          }
+        },
+        "status": "active",
+        "medicationReference": {
+          "reference": "https://gematik.de/fhir/epa-medication/Medication/f35d35c4-4ec7-4431-b0a6-b04aa3a2c627/_history/1"
+        },
+        "effectivePeriod": {
+          "start": "2023-05-11T12:30:00+01:00"
+        },
+        "dateAsserted": "2023-05-17T12:30:00+01:00",
+        "reasonCode": [
+          {
+            "text": "Mäßige bis starke Schmerzen"
+          }
+        ],
+        "note": [
+          {
+            "authorReference": {
+              "reference": "https://gematik.de/fhir/epa-medication/Practitioner/6eb210e7-8ed6-4355-8501-666a6c832f59"
+            },
+            "time": "2023-05-17T12:30:00+01:00",
+            "text": "Im Verlauf ausschleichen"
+          }
+        ],
+        "dosage": [
+          {
+            "timing": {
+              "repeat": {
+                "boundsPeriod": {
+                  "start": "2023-05-11T12:30:00+01:00"
+                },
+                "frequency": 1,
+                "period": 1,
+                "periodUnit": "d",
+                "when": [
+                  "MORN"
+                ]
+              }
+            },
+            "asNeededBoolean": false,
+            "route": {
+              "coding": [
+                {
+                  "code": "20053000",
+                  "system": "http://standardterms.edqm.eu",
+                  "display": "Oral use"
+                }
+              ]
+            },
+            "doseAndRate": [
+              {
+                "doseQuantity": {
+                  "value": 2,
+                  "code": "1",
+                  "system": "https://fhir.kbv.de/CodeSystem/KBV_CS_SFHIR_BMP_DOSIEREINHEIT",
+                  "unit": "Stück"
+                }
+              }
+            ]
+          },
+          {
+            "timing": {
+              "repeat": {
+                "boundsPeriod": {
+                  "start": "2023-05-11T12:30:00+01:00"
+                },
+                "frequency": 1,
+                "period": 1,
+                "periodUnit": "d",
+                "when": [
+                  "NOON"
+                ]
+              }
+            },
+            "asNeededBoolean": false,
+            "route": {
+              "coding": [
+                {
+                  "code": "20053000",
+                  "system": "http://standardterms.edqm.eu",
+                  "display": "Oral use"
+                }
+              ]
+            },
+            "doseAndRate": [
+              {
+                "doseQuantity": {
+                  "value": 1,
+                  "code": "1",
+                  "system": "https://fhir.kbv.de/CodeSystem/KBV_CS_SFHIR_BMP_DOSIEREINHEIT",
+                  "unit": "Stück"
+                }
+              }
+            ]
+          },
+          {
+            "timing": {
+              "repeat": {
+                "boundsPeriod": {
+                  "start": "2023-05-11T12:30:00+01:00"
+                },
+                "frequency": 1,
+                "period": 1,
+                "periodUnit": "d",
+                "when": [
+                  "EVE"
+                ]
+              }
+            },
+            "asNeededBoolean": false,
+            "route": {
+              "coding": [
+                {
+                  "code": "20053000",
+                  "system": "http://standardterms.edqm.eu",
+                  "display": "Oral use"
+                }
+              ]
+            },
+            "doseAndRate": [
+              {
+                "doseQuantity": {
+                  "value": 2,
+                  "code": "1",
+                  "system": "https://fhir.kbv.de/CodeSystem/KBV_CS_SFHIR_BMP_DOSIEREINHEIT",
+                  "unit": "Stück"
+                }
+              }
+            ]
+          },
+          {
+            "timing": {
+              "repeat": {
+                "boundsPeriod": {
+                  "start": "2023-05-11T12:30:00+01:00"
+                },
+                "frequency": 1,
+                "period": 1,
+                "periodUnit": "d",
+                "when": [
+                  "NIGHT"
+                ]
+              }
+            },
+            "asNeededBoolean": false,
+            "route": {
+              "coding": [
+                {
+                  "code": "20053000",
+                  "system": "http://standardterms.edqm.eu",
+                  "display": "Oral use"
+                }
+              ]
+            },
+            "doseAndRate": [
+              {
+                "doseQuantity": {
+                  "value": 1,
+                  "code": "1",
+                  "system": "https://fhir.kbv.de/CodeSystem/KBV_CS_SFHIR_BMP_DOSIEREINHEIT",
+                  "unit": "Stück"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://gematik.de/fhir/epa-medication/Medication/f35d35c4-4ec7-4431-b0a6-b04aa3a2c627",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "f35d35c4-4ec7-4431-b0a6-b04aa3a2c627",
+        "meta": {
+          "lastUpdated": "2023-05-17T12:30:00+01:00",
+          "versionId": "1",
+          "profile": [
+            "https://gematik.de/fhir/epa-medication/StructureDefinition/epa-medication-planning"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://fhir.de/CodeSystem/ifa/pzn",
+              "code": "1384557",
+              "display": "NOVAMINSULFON-ratiopharm 500 mg Tabletten"
+            }
+          ]
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "https://fhir.kbv.de/CodeSystem/KBV_CS_SFHIR_KBV_DARREICHUNGSFORM",
+              "code": "TAB",
+              "display": "Tabletten",
+              "version": "1.1.0"
+            }
+          ]
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://fhir.de/CodeSystem/ask",
+                  "code": "2897",
+                  "display": "Metamizol"
+                }
+              ]
+            },
+            "strength": {
+              "numerator": {
+                "value": 500,
+                "code": "mg",
+                "system": "http://unitsofmeasure.org",
+                "unit": "milligram"
+              },
+              "denominator": {
+                "value": 1,
+                "code": "732936001",
+                "system": "http://snomed.info/sct",
+                "unit": "Tablet (unit of presentation)"
+              }
+            }
+          }
+        ],
+        "status": "active",
+        "amount": {
+          "numerator": {
+            "value": 10,
+            "code": "732936001",
+            "system": "http://snomed.info/sct",
+            "unit": "Tablet (unit of presentation)"
+          },
+          "denominator": {
+            "value": 1,
+            "code": "1681000175101",
+            "system": "http://snomed.info/sct",
+            "unit": "Package - unit of product usage (qualifier value)"
+          }
+        }
+      }
+    },
+    {
+      "fullUrl": "https://gematik.de/fhir/epa-medication/MedicationStatement/1f12e179-faa7-44fa-8db9-a825778bb627",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "1f12e179-faa7-44fa-8db9-a825778bb627",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-05-17T12:30:00+01:00",
+          "profile": [
+            "https://gematik.de/fhir/epa-medication/StructureDefinition/epa-medication-statement-planning"
+          ]
+        },
+        "subject": {
+          "identifier": {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://fhir.de/CodeSystem/identifier-type-de-basis",
+                  "code": "KVZ10",
+                  "display": "Krankenversichertennummer"
+                }
+              ]
+            },
+            "system": "http://fhir.de/sid/gkv/kvid-10",
+            "value": "A123456789"
+          }
+        },
+        "reasonCode": [
+          {
+            "coding": [
+              {
+                "system": "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+                "code": "I50.1",
+                "display": "Linksherzinsuffizienz",
+                "version": "2024"
+              }
+            ],
+            "text": "Herzschwäche"
+          },
+          {
+            "coding": [
+              {
+                "system": "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+                "code": "I10.00",
+                "display": "Benigne essentielle Hypertonie : Ohne Angabe einer hypertensiven Krise",
+                "version": "2024"
+              }
+            ],
+            "text": "Bluthochdruck"
+          }
+        ],
+        "status": "active",
+        "medicationReference": {
+          "reference": "https://gematik.de/fhir/epa-medication/Medication/450348dc-431c-4646-8bc9-e1f5dd169693/_history/1"
+        },
+        "effectivePeriod": {
+          "start": "2011-03-15T11:15:00+01:00"
+        },
+        "dateAsserted": "2023-05-17T12:30:00+01:00",
+        "note": [
+          {
+            "authorReference": {
+              "reference": "https://gematik.de/fhir/epa-medication/Practitioner/6eb210e7-8ed6-4355-8501-666a6c832f59"
+            },
+            "time": "2023-05-17T12:30:00+01:00",
+            "text": "Reduziert auf 8mg wegen RR-Erniedrigung"
+          }
+        ],
+        "dosage": [
+          {
+            "timing": {
+              "repeat": {
+                "boundsPeriod": {
+                  "start": "2023-05-11T12:30:00+01:00"
+                },
+                "frequency": 1,
+                "period": 1,
+                "periodUnit": "d",
+                "when": [
+                  "MORN"
+                ]
+              }
+            },
+            "asNeededBoolean": false,
+            "route": {
+              "coding": [
+                {
+                  "code": "20053000",
+                  "system": "http://standardterms.edqm.eu",
+                  "display": "Oral use"
+                }
+              ]
+            },
+            "doseAndRate": [
+              {
+                "doseQuantity": {
+                  "value": 1,
+                  "code": "1",
+                  "system": "https://fhir.kbv.de/CodeSystem/KBV_CS_SFHIR_BMP_DOSIEREINHEIT",
+                  "unit": "Stück"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://gematik.de/fhir/epa-medication/Medication/450348dc-431c-4646-8bc9-e1f5dd169693",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "450348dc-431c-4646-8bc9-e1f5dd169693",
+        "meta": {
+          "lastUpdated": "2023-05-17T12:30:00+01:00",
+          "versionId": "1",
+          "profile": [
+            "https://gematik.de/fhir/epa-medication/StructureDefinition/epa-medication-planning"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://fhir.de/CodeSystem/ifa/pzn",
+              "code": "55419273159338",
+              "display": "Candesartan 1A Pharma® 8Mg"
+            }
+          ]
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "https://fhir.kbv.de/CodeSystem/KBV_CS_SFHIR_KBV_DARREICHUNGSFORM",
+              "code": "TAB",
+              "display": "Tabletten",
+              "version": "1.1.0"
+            }
+          ]
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://fhir.de/CodeSystem/ask",
+                  "code": "27048",
+                  "display": "Candesartancilexetil"
+                }
+              ]
+            },
+            "strength": {
+              "numerator": {
+                "value": 8,
+                "code": "mg",
+                "system": "http://unitsofmeasure.org",
+                "unit": "milligram"
+              },
+              "denominator": {
+                "value": 1,
+                "code": "732936001",
+                "system": "http://snomed.info/sct",
+                "unit": "Tablet (unit of presentation)"
+              }
+            }
+          }
+        ],
+        "status": "active"
+      }
+    },
+    {
+      "fullUrl": "https://gematik.de/fhir/epa-medication/Provenance/0e6a5411-3b0f-4299-be2b-f501641572df",
+      "resource": {
+        "resourceType": "Provenance",
+        "id": "0e6a5411-3b0f-4299-be2b-f501641572df",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-05-03T11:15:00+01:00",
+          "profile": [
+            "https://gematik.de/fhir/epa/StructureDefinition/epa-provenance"
+          ]
+        },
+        "target": [
+          {
+            "reference": "https://gematik.de/fhir/epa-medication/List/cf93090a-b5e5-44a2-8251-3dfdbe0fe99a/_history/1"
+          }
+        ],
+        "recorded": "2023-05-03T11:15:00+01:00",
+        "activity": {
+          "coding": [
+            {
+              "code": "CREATE",
+              "system": "http://terminology.hl7.org/CodeSystem/v3-DataOperation",
+              "version": "2018-08-12",
+              "display": "create"
+            }
+          ]
+        },
+        "agent": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "author",
+                  "system": "http://terminology.hl7.org/CodeSystem/provenance-participant-type",
+                  "version": "4.0.1",
+                  "display": "Author"
+                }
+              ]
+            },
+            "who": {
+              "reference": "https://gematik.de/fhir/epa-medication/PractitionerRole/96944367-67d2-438d-b67c-3130850e6ad9"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://gematik.de/fhir/epa-medication/Provenance/623b83b4-d0ae-42d0-bffb-d768a1fe5281",
+      "resource": {
+        "resourceType": "Provenance",
+        "id": "623b83b4-d0ae-42d0-bffb-d768a1fe5281",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-05-03T11:15:00+01:00",
+          "profile": [
+            "https://gematik.de/fhir/epa/StructureDefinition/epa-provenance"
+          ]
+        },
+        "target": [
+          {
+            "reference": "https://gematik.de/fhir/epa-medication/Observation/8f488a80-88a2-45c6-aa74-dc703dbe1a85/_history/1"
+          }
+        ],
+        "recorded": "2023-05-03T11:15:00+01:00",
+        "activity": {
+          "coding": [
+            {
+              "code": "CREATE",
+              "system": "http://terminology.hl7.org/CodeSystem/v3-DataOperation",
+              "version": "2018-08-12",
+              "display": "create"
+            }
+          ]
+        },
+        "agent": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "author",
+                  "system": "http://terminology.hl7.org/CodeSystem/provenance-participant-type",
+                  "version": "4.0.1",
+                  "display": "Author"
+                }
+              ]
+            },
+            "who": {
+              "reference": "https://gematik.de/fhir/epa-medication/PractitionerRole/96944367-67d2-438d-b67c-3130850e6ad9"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://gematik.de/fhir/epa-medication/Provenance/e03ad115-f248-412c-a8ad-de9b2c7a147f",
+      "resource": {
+        "resourceType": "Provenance",
+        "id": "e03ad115-f248-412c-a8ad-de9b2c7a147f",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2011-03-15T11:15:00+01:00",
+          "profile": [
+            "https://gematik.de/fhir/epa/StructureDefinition/epa-provenance"
+          ]
+        },
+        "target": [
+          {
+            "reference": "https://gematik.de/fhir/epa-medication/AllergyIntolerance/0aaf6b98-7235-48d5-9b10-39dccb60fdc3/_history/1"
+          }
+        ],
+        "recorded": "2011-03-15T11:15:00+01:00",
+        "activity": {
+          "coding": [
+            {
+              "code": "CREATE",
+              "system": "http://terminology.hl7.org/CodeSystem/v3-DataOperation",
+              "version": "2018-08-12",
+              "display": "create"
+            }
+          ]
+        },
+        "agent": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "author",
+                  "system": "http://terminology.hl7.org/CodeSystem/provenance-participant-type",
+                  "version": "4.0.1",
+                  "display": "Author"
+                }
+              ]
+            },
+            "who": {
+              "reference": "https://gematik.de/fhir/epa-medication/PractitionerRole/96944367-67d2-438d-b67c-3130850e6ad9"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://gematik.de/fhir/epa-medication/Provenance/366098c0-11e7-42a2-b669-dc90b37af00d",
+      "resource": {
+        "resourceType": "Provenance",
+        "id": "366098c0-11e7-42a2-b669-dc90b37af00d",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2019-03-11T11:15:00+01:00",
+          "profile": [
+            "https://gematik.de/fhir/epa/StructureDefinition/epa-provenance"
+          ]
+        },
+        "target": [
+          {
+            "reference": "https://gematik.de/fhir/epa-medication/Medication/55255a9f-e07d-4fd1-98b9-95aca5948331/_history/1"
+          }
+        ],
+        "recorded": "2019-03-11T11:15:00+01:00",
+        "activity": {
+          "coding": [
+            {
+              "code": "CREATE",
+              "system": "http://terminology.hl7.org/CodeSystem/v3-DataOperation",
+              "version": "2018-08-12",
+              "display": "create"
+            }
+          ]
+        },
+        "agent": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "author",
+                  "system": "http://terminology.hl7.org/CodeSystem/provenance-participant-type",
+                  "version": "4.0.1",
+                  "display": "Author"
+                }
+              ]
+            },
+            "who": {
+              "reference": "https://gematik.de/fhir/epa-medication/PractitionerRole/96944367-67d2-438d-b67c-3130850e6ad9"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://gematik.de/fhir/epa-medication/Provenance/06550d34-798d-44e0-afad-79a41084a4a6",
+      "resource": {
+        "resourceType": "Provenance",
+        "id": "06550d34-798d-44e0-afad-79a41084a4a6",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2019-03-11T11:15:00+01:00",
+          "profile": [
+            "https://gematik.de/fhir/epa/StructureDefinition/epa-provenance"
+          ]
+        },
+        "target": [
+          {
+            "reference": "https://gematik.de/fhir/epa-medication/MedicationStatement/4fd92a0f-c078-4757-a1bf-94496322c8f8/_history/1"
+          }
+        ],
+        "recorded": "2019-03-11T11:15:00+01:00",
+        "activity": {
+          "coding": [
+            {
+              "code": "CREATE",
+              "system": "http://terminology.hl7.org/CodeSystem/v3-DataOperation",
+              "version": "2018-08-12",
+              "display": "create"
+            }
+          ]
+        },
+        "agent": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "author",
+                  "system": "http://terminology.hl7.org/CodeSystem/provenance-participant-type",
+                  "version": "4.0.1",
+                  "display": "Author"
+                }
+              ]
+            },
+            "who": {
+              "reference": "https://gematik.de/fhir/epa-medication/PractitionerRole/96944367-67d2-438d-b67c-3130850e6ad9"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://gematik.de/fhir/epa-medication/Provenance/07652dcd-f173-4374-9f3f-4f8462b269e3",
+      "resource": {
+        "resourceType": "Provenance",
+        "id": "07652dcd-f173-4374-9f3f-4f8462b269e3",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-05-17T12:30:00+01:00",
+          "profile": [
+            "https://gematik.de/fhir/epa/StructureDefinition/epa-provenance"
+          ]
+        },
+        "target": [
+          {
+            "reference": "https://gematik.de/fhir/epa-medication/Observation/7a73970e-cfaf-4072-84b3-57d6f45f8ac9/_history/1"
+          }
+        ],
+        "recorded": "2023-05-17T12:30:00+01:00",
+        "activity": {
+          "coding": [
+            {
+              "code": "CREATE",
+              "system": "http://terminology.hl7.org/CodeSystem/v3-DataOperation",
+              "version": "2018-08-12",
+              "display": "create"
+            }
+          ]
+        },
+        "agent": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "author",
+                  "system": "http://terminology.hl7.org/CodeSystem/provenance-participant-type",
+                  "version": "4.0.1",
+                  "display": "Author"
+                }
+              ]
+            },
+            "who": {
+              "reference": "https://gematik.de/fhir/epa-medication/PractitionerRole/0f571555-f367-4158-ba89-2e2cc9afb564"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://gematik.de/fhir/epa-medication/Provenance/770308cf-3bde-43d4-a550-b90f3b6c619d",
+      "resource": {
+        "resourceType": "Provenance",
+        "id": "770308cf-3bde-43d4-a550-b90f3b6c619d",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-05-17T12:30:00+01:00",
+          "profile": [
+            "https://gematik.de/fhir/epa/StructureDefinition/epa-provenance"
+          ]
+        },
+        "target": [
+          {
+            "reference": "https://gematik.de/fhir/epa-medication/Observation/db6ffdcc-4328-426b-85cb-6b3ac06fc4b4/_history/1"
+          }
+        ],
+        "recorded": "2023-05-17T12:30:00+01:00",
+        "activity": {
+          "coding": [
+            {
+              "code": "CREATE",
+              "system": "http://terminology.hl7.org/CodeSystem/v3-DataOperation",
+              "version": "2018-08-12",
+              "display": "create"
+            }
+          ]
+        },
+        "agent": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "author",
+                  "system": "http://terminology.hl7.org/CodeSystem/provenance-participant-type",
+                  "version": "4.0.1",
+                  "display": "Author"
+                }
+              ]
+            },
+            "who": {
+              "reference": "https://gematik.de/fhir/epa-medication/PractitionerRole/0f571555-f367-4158-ba89-2e2cc9afb564"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://gematik.de/fhir/epa-medication/Provenance/ac4adf5d-9513-412a-bd1a-e88392915da6",
+      "resource": {
+        "resourceType": "Provenance",
+        "id": "ac4adf5d-9513-412a-bd1a-e88392915da6",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-05-17T12:30:00+01:00",
+          "profile": [
+            "https://gematik.de/fhir/epa/StructureDefinition/epa-provenance"
+          ]
+        },
+        "target": [
+          {
+            "reference": "https://gematik.de/fhir/epa-medication/Observation/1c9ee5d3-03b2-4e5b-94d9-a0a62a545b02/_history/1"
+          }
+        ],
+        "recorded": "2023-05-17T12:30:00+01:00",
+        "activity": {
+          "coding": [
+            {
+              "code": "CREATE",
+              "system": "http://terminology.hl7.org/CodeSystem/v3-DataOperation",
+              "version": "2018-08-12",
+              "display": "create"
+            }
+          ]
+        },
+        "agent": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "author",
+                  "system": "http://terminology.hl7.org/CodeSystem/provenance-participant-type",
+                  "version": "4.0.1",
+                  "display": "Author"
+                }
+              ]
+            },
+            "who": {
+              "reference": "https://gematik.de/fhir/epa-medication/PractitionerRole/0f571555-f367-4158-ba89-2e2cc9afb564"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://gematik.de/fhir/epa-medication/Provenance/4cb9f069-258d-41eb-90ad-1db196723d8b",
+      "resource": {
+        "resourceType": "Provenance",
+        "id": "4cb9f069-258d-41eb-90ad-1db196723d8b",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-05-17T12:30:00+01:00",
+          "profile": [
+            "https://gematik.de/fhir/epa/StructureDefinition/epa-provenance"
+          ]
+        },
+        "target": [
+          {
+            "reference": "https://gematik.de/fhir/epa-medication/Medication/62e11b74-abbb-4645-8b92-c1d251d5a9ea/_history/2"
+          }
+        ],
+        "recorded": "2023-05-17T12:30:00+01:00",
+        "activity": {
+          "coding": [
+            {
+              "code": "UPDATE",
+              "system": "http://terminology.hl7.org/CodeSystem/v3-DataOperation",
+              "version": "2018-08-12",
+              "display": "revise"
+            }
+          ]
+        },
+        "agent": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "author",
+                  "system": "http://terminology.hl7.org/CodeSystem/provenance-participant-type",
+                  "version": "4.0.1",
+                  "display": "Author"
+                }
+              ]
+            },
+            "who": {
+              "reference": "https://gematik.de/fhir/epa-medication/PractitionerRole/0f571555-f367-4158-ba89-2e2cc9afb564"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://gematik.de/fhir/epa-medication/Provenance/b9965772-1fa5-4c1b-bbe8-8bdb07dfe892",
+      "resource": {
+        "resourceType": "Provenance",
+        "id": "b9965772-1fa5-4c1b-bbe8-8bdb07dfe892",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-05-17T12:30:00+01:00",
+          "profile": [
+            "https://gematik.de/fhir/epa/StructureDefinition/epa-provenance"
+          ]
+        },
+        "target": [
+          {
+            "reference": "https://gematik.de/fhir/epa-medication/Medication/cc980c3b-8aea-4140-8dfe-66874a3d2a0b/_history/2"
+          }
+        ],
+        "recorded": "2023-05-17T12:30:00+01:00",
+        "activity": {
+          "coding": [
+            {
+              "code": "CREATE",
+              "system": "http://terminology.hl7.org/CodeSystem/v3-DataOperation",
+              "version": "2018-08-12",
+              "display": "create"
+            }
+          ]
+        },
+        "agent": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "author",
+                  "system": "http://terminology.hl7.org/CodeSystem/provenance-participant-type",
+                  "version": "4.0.1",
+                  "display": "Author"
+                }
+              ]
+            },
+            "who": {
+              "reference": "https://gematik.de/fhir/epa-medication/PractitionerRole/0f571555-f367-4158-ba89-2e2cc9afb564"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://gematik.de/fhir/epa-medication/Provenance/325def38-bd7c-4cb2-ae4c-fa31d45b2d84",
+      "resource": {
+        "resourceType": "Provenance",
+        "id": "325def38-bd7c-4cb2-ae4c-fa31d45b2d84",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-05-17T12:30:00+01:00",
+          "profile": [
+            "https://gematik.de/fhir/epa/StructureDefinition/epa-provenance"
+          ]
+        },
+        "target": [
+          {
+            "reference": "https://gematik.de/fhir/epa-medication/MedicationStatement/fcae8b9e-43ab-4418-8e6f-f511864393af/_history/2"
+          }
+        ],
+        "recorded": "2023-05-17T12:30:00+01:00",
+        "activity": {
+          "coding": [
+            {
+              "code": "UPDATE",
+              "system": "http://terminology.hl7.org/CodeSystem/v3-DataOperation",
+              "version": "2018-08-12",
+              "display": "revise"
+            }
+          ]
+        },
+        "agent": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "author",
+                  "system": "http://terminology.hl7.org/CodeSystem/provenance-participant-type",
+                  "version": "4.0.1",
+                  "display": "Author"
+                }
+              ]
+            },
+            "who": {
+              "reference": "https://gematik.de/fhir/epa-medication/PractitionerRole/0f571555-f367-4158-ba89-2e2cc9afb564"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://gematik.de/fhir/epa-medication/Provenance/e0d54c45-b55c-405f-82c2-c80a2c4b6adc",
+      "resource": {
+        "resourceType": "Provenance",
+        "id": "e0d54c45-b55c-405f-82c2-c80a2c4b6adc",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-05-17T12:30:00+01:00",
+          "profile": [
+            "https://gematik.de/fhir/epa/StructureDefinition/epa-provenance"
+          ]
+        },
+        "target": [
+          {
+            "reference": "https://gematik.de/fhir/epa-medication/MedicationStatement/36e33962-228c-42cb-9528-461777e1a120/_history/2"
+          }
+        ],
+        "recorded": "2023-05-17T12:30:00+01:00",
+        "activity": {
+          "coding": [
+            {
+              "code": "UPDATE",
+              "system": "http://terminology.hl7.org/CodeSystem/v3-DataOperation",
+              "version": "2018-08-12",
+              "display": "revise"
+            }
+          ]
+        },
+        "agent": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "author",
+                  "system": "http://terminology.hl7.org/CodeSystem/provenance-participant-type",
+                  "version": "4.0.1",
+                  "display": "Author"
+                }
+              ]
+            },
+            "who": {
+              "reference": "https://gematik.de/fhir/epa-medication/PractitionerRole/0f571555-f367-4158-ba89-2e2cc9afb564"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://gematik.de/fhir/epa-medication/Provenance/547552fe-d1b3-4872-b396-f762a02c4038",
+      "resource": {
+        "resourceType": "Provenance",
+        "id": "547552fe-d1b3-4872-b396-f762a02c4038",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-05-17T12:30:00+01:00",
+          "profile": [
+            "https://gematik.de/fhir/epa/StructureDefinition/epa-provenance"
+          ]
+        },
+        "target": [
+          {
+            "reference": "https://gematik.de/fhir/epa-medication/List/1ea33b03-9fcc-4520-aa70-655abba89761/_history/2"
+          }
+        ],
+        "recorded": "2023-05-17T12:30:00+01:00",
+        "activity": {
+          "coding": [
+            {
+              "code": "UPDATE",
+              "system": "http://terminology.hl7.org/CodeSystem/v3-DataOperation",
+              "version": "2018-08-12",
+              "display": "revise"
+            }
+          ]
+        },
+        "agent": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "author",
+                  "system": "http://terminology.hl7.org/CodeSystem/provenance-participant-type",
+                  "version": "4.0.1",
+                  "display": "Author"
+                }
+              ]
+            },
+            "who": {
+              "reference": "https://gematik.de/fhir/epa-medication/PractitionerRole/0f571555-f367-4158-ba89-2e2cc9afb564"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://gematik.de/fhir/epa-medication/Provenance/5f0be1c6-8b50-4d03-967e-0f1bec0caedf",
+      "resource": {
+        "resourceType": "Provenance",
+        "id": "5f0be1c6-8b50-4d03-967e-0f1bec0caedf",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-05-17T12:30:00+01:00",
+          "profile": [
+            "https://gematik.de/fhir/epa/StructureDefinition/epa-provenance"
+          ]
+        },
+        "target": [
+          {
+            "reference": "https://gematik.de/fhir/epa-medication/List/697fc4a9-df98-4e29-921e-b6d2c9f56456/_history/2"
+          }
+        ],
+        "recorded": "2023-05-17T12:30:00+01:00",
+        "activity": {
+          "coding": [
+            {
+              "code": "UPDATE",
+              "system": "http://terminology.hl7.org/CodeSystem/v3-DataOperation",
+              "version": "2018-08-12",
+              "display": "revise"
+            }
+          ]
+        },
+        "agent": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "author",
+                  "system": "http://terminology.hl7.org/CodeSystem/provenance-participant-type",
+                  "version": "4.0.1",
+                  "display": "Author"
+                }
+              ]
+            },
+            "who": {
+              "reference": "https://gematik.de/fhir/epa-medication/PractitionerRole/0f571555-f367-4158-ba89-2e2cc9afb564"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://gematik.de/fhir/epa-medication/Provenance/e7a82909-39a3-468e-a2c6-f8512e0adcd7",
+      "resource": {
+        "resourceType": "Provenance",
+        "id": "e7a82909-39a3-468e-a2c6-f8512e0adcd7",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-05-17T12:30:00+01:00",
+          "profile": [
+            "https://gematik.de/fhir/epa/StructureDefinition/epa-provenance"
+          ]
+        },
+        "target": [
+          {
+            "reference": "https://gematik.de/fhir/epa-medication/Medication/450348dc-431c-4646-8bc9-e1f5dd169693/_history/1"
+          }
+        ],
+        "recorded": "2023-05-17T12:30:00+01:00",
+        "activity": {
+          "coding": [
+            {
+              "code": "CREATE",
+              "system": "http://terminology.hl7.org/CodeSystem/v3-DataOperation",
+              "version": "2018-08-12",
+              "display": "create"
+            }
+          ]
+        },
+        "agent": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "author",
+                  "system": "http://terminology.hl7.org/CodeSystem/provenance-participant-type",
+                  "version": "4.0.1",
+                  "display": "Author"
+                }
+              ]
+            },
+            "who": {
+              "reference": "https://gematik.de/fhir/epa-medication/PractitionerRole/0f571555-f367-4158-ba89-2e2cc9afb564"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://gematik.de/fhir/epa-medication/Provenance/d7245761-223f-48ad-8e62-f9bb72ef8a67",
+      "resource": {
+        "resourceType": "Provenance",
+        "id": "d7245761-223f-48ad-8e62-f9bb72ef8a67",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-05-17T12:30:00+01:00",
+          "profile": [
+            "https://gematik.de/fhir/epa/StructureDefinition/epa-provenance"
+          ]
+        },
+        "target": [
+          {
+            "reference": "https://gematik.de/fhir/epa-medication/Medication/81fa28bc-83e2-4da3-9169-5639c51a7fed/_history/1"
+          }
+        ],
+        "recorded": "2023-05-17T12:30:00+01:00",
+        "activity": {
+          "coding": [
+            {
+              "code": "CREATE",
+              "system": "http://terminology.hl7.org/CodeSystem/v3-DataOperation",
+              "version": "2018-08-12",
+              "display": "create"
+            }
+          ]
+        },
+        "agent": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "author",
+                  "system": "http://terminology.hl7.org/CodeSystem/provenance-participant-type",
+                  "version": "4.0.1",
+                  "display": "Author"
+                }
+              ]
+            },
+            "who": {
+              "reference": "https://gematik.de/fhir/epa-medication/PractitionerRole/0f571555-f367-4158-ba89-2e2cc9afb564"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://gematik.de/fhir/epa-medication/Provenance/a6c20ff7-337c-4ccc-92be-fdaeed4eeb13",
+      "resource": {
+        "resourceType": "Provenance",
+        "id": "a6c20ff7-337c-4ccc-92be-fdaeed4eeb13",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-05-17T12:30:00+01:00",
+          "profile": [
+            "https://gematik.de/fhir/epa/StructureDefinition/epa-provenance"
+          ]
+        },
+        "target": [
+          {
+            "reference": "https://gematik.de/fhir/epa-medication/Medication/f35d35c4-4ec7-4431-b0a6-b04aa3a2c627/_history/1"
+          }
+        ],
+        "recorded": "2023-05-17T12:30:00+01:00",
+        "activity": {
+          "coding": [
+            {
+              "code": "CREATE",
+              "system": "http://terminology.hl7.org/CodeSystem/v3-DataOperation",
+              "version": "2018-08-12",
+              "display": "create"
+            }
+          ]
+        },
+        "agent": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "author",
+                  "system": "http://terminology.hl7.org/CodeSystem/provenance-participant-type",
+                  "version": "4.0.1",
+                  "display": "Author"
+                }
+              ]
+            },
+            "who": {
+              "reference": "https://gematik.de/fhir/epa-medication/PractitionerRole/0f571555-f367-4158-ba89-2e2cc9afb564"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://gematik.de/fhir/epa-medication/Provenance/16d27b92-956d-4e8c-963b-f056ffff2e47",
+      "resource": {
+        "resourceType": "Provenance",
+        "id": "16d27b92-956d-4e8c-963b-f056ffff2e47",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-05-17T12:30:00+01:00",
+          "profile": [
+            "https://gematik.de/fhir/epa/StructureDefinition/epa-provenance"
+          ]
+        },
+        "target": [
+          {
+            "reference": "https://gematik.de/fhir/epa-medication/MedicationStatement/1f12e179-faa7-44fa-8db9-a825778bb627/_history/1"
+          }
+        ],
+        "recorded": "2023-05-17T12:30:00+01:00",
+        "activity": {
+          "coding": [
+            {
+              "code": "CREATE",
+              "system": "http://terminology.hl7.org/CodeSystem/v3-DataOperation",
+              "version": "2018-08-12",
+              "display": "create"
+            }
+          ]
+        },
+        "agent": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "author",
+                  "system": "http://terminology.hl7.org/CodeSystem/provenance-participant-type",
+                  "version": "4.0.1",
+                  "display": "Author"
+                }
+              ]
+            },
+            "who": {
+              "reference": "https://gematik.de/fhir/epa-medication/PractitionerRole/0f571555-f367-4158-ba89-2e2cc9afb564"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://gematik.de/fhir/epa-medication/Provenance/5b64662c-5da1-41e9-bd77-b483a83fb494",
+      "resource": {
+        "resourceType": "Provenance",
+        "id": "5b64662c-5da1-41e9-bd77-b483a83fb494",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-05-17T12:30:00+01:00",
+          "profile": [
+            "https://gematik.de/fhir/epa/StructureDefinition/epa-provenance"
+          ]
+        },
+        "target": [
+          {
+            "reference": "https://gematik.de/fhir/epa-medication/MedicationStatement/0823f0d0-6053-4f07-abe5-09744505ef21/_history/1"
+          }
+        ],
+        "recorded": "2023-05-17T12:30:00+01:00",
+        "activity": {
+          "coding": [
+            {
+              "code": "CREATE",
+              "system": "http://terminology.hl7.org/CodeSystem/v3-DataOperation",
+              "version": "2018-08-12",
+              "display": "create"
+            }
+          ]
+        },
+        "agent": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "author",
+                  "system": "http://terminology.hl7.org/CodeSystem/provenance-participant-type",
+                  "version": "4.0.1",
+                  "display": "Author"
+                }
+              ]
+            },
+            "who": {
+              "reference": "https://gematik.de/fhir/epa-medication/PractitionerRole/0f571555-f367-4158-ba89-2e2cc9afb564"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://gematik.de/fhir/epa-medication/Provenance/3c3ad64f-c943-401f-a9dd-eac2c7d4e741",
+      "resource": {
+        "resourceType": "Provenance",
+        "id": "3c3ad64f-c943-401f-a9dd-eac2c7d4e741",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-05-17T12:30:00+01:00",
+          "profile": [
+            "https://gematik.de/fhir/epa/StructureDefinition/epa-provenance"
+          ]
+        },
+        "target": [
+          {
+            "reference": "https://gematik.de/fhir/epa-medication/MedicationStatement/54419f7a-ee92-4bc1-ae48-9def3a692b90/_history/1"
+          }
+        ],
+        "recorded": "2023-05-17T12:30:00+01:00",
+        "activity": {
+          "coding": [
+            {
+              "code": "CREATE",
+              "system": "http://terminology.hl7.org/CodeSystem/v3-DataOperation",
+              "version": "2018-08-12",
+              "display": "create"
+            }
+          ]
+        },
+        "agent": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "author",
+                  "system": "http://terminology.hl7.org/CodeSystem/provenance-participant-type",
+                  "version": "4.0.1",
+                  "display": "Author"
+                }
+              ]
+            },
+            "who": {
+              "reference": "https://gematik.de/fhir/epa-medication/PractitionerRole/0f571555-f367-4158-ba89-2e2cc9afb564"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
